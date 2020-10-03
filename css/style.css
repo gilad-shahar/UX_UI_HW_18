@@ -245,9 +245,9 @@ margin-top: 40px;
     flex-wrap: nowrap;
 
 
-       /*
+
     border: 1px blue solid;
-    */
+  
 
 }
 
@@ -280,6 +280,8 @@ margin-top: 40px;
 
 
 .work_button{
+    display: block;
+    
     font-size: 18px;
     padding: 10px 40px;
     background-color:#007AFF;
@@ -291,7 +293,6 @@ margin-top: 40px;
     border: none;
     margin-top: 60px;
     align-self: flex-start;
-
 
 
 }
@@ -429,6 +430,8 @@ margin: 1em;
         overflow: hidden;
         }
 
+
+
 .work{
     display: flex;
     flex-flow: row;
@@ -441,11 +444,11 @@ margin: 1em;
 
     background-color: #F4F4F4;
     border-radius: 10px;
-
 }
 
-    }
-    
+html {
+    scroll-behavior: smooth;
+  }
 
 /* 
 .content{
