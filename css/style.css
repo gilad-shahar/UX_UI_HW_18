@@ -213,11 +213,19 @@ h2{
   border: 1px red solid;
   */
     flex-wrap: nowrap;
+    text-align: center;
+
+text-align: center;
 
 }
 
 .project2 h1{
 text-align: center;
+margin-top: 40px;
+}
+
+.h1ppp{
+    text-align: center;
 margin-top: 40px;
 }
 
