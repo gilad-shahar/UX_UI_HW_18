@@ -198,13 +198,6 @@ h2{
 
 }
 
-.pic1{
-}
-
-.pic2{
-
-    
-}
 
 
 
@@ -244,9 +237,6 @@ margin-top: 40px;
     margin: 5% 10%;
     flex-wrap: nowrap;
 
-
-
-    border: 1px blue solid;
   
 
 }
@@ -431,6 +421,28 @@ margin: 1em;
         }
 
 
+        .myskills{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            */
+        
+        }
+
+        .skill{
+            display: flex;
+            flex-flow: column;
+            padding: 0.5em 2.5em;
+            border: black solid 6px;
+            border-radius: 10px;
+            text-align: center ;
+            margin: 1em 1em;
+        
+               /*
+            border: 1px blue solid;
+            */
+        
+        }
 
 .work{
     display: flex;
